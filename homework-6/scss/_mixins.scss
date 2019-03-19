@@ -1,0 +1,89 @@
+@mixin flexbox(){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@mixin sprite(){
+     display: inline-block; 
+      background: url('sprite.png') no-repeat; 
+      overflow: hidden; 
+      text-indent: -9999px; 
+}
+
+@mixin sprite-2(){
+    
+ display: inline-block; 
+ background: url('sprite-2.png') no-repeat; 
+ overflow: hidden; 
+ text-indent: -9999px; 
+ text-align: left; 
+}
+
+@mixin sprite-3(){
+    display: inline-block; 
+    background: url('sprite-3.png') no-repeat; 
+    overflow: hidden; 
+    text-indent: -9999px; 
+    text-align: left; 
+}
+
+@mixin sprite-4(){
+    display: inline-block; 
+    background: url('sprite-4.png') no-repeat; 
+    overflow: hidden; 
+    text-indent: -9999px; 
+    text-align: left; 
+}
+
+@mixin flexbox-2(){
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin circle(){
+    width: 70px;
+    height: 70px;
+    background: #222222;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+@mixin circle-big(){
+    width: 200px;
+    height: 200px;
+    background: #222222;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+}
+
+@mixin circle-mobile(){
+    width: 70px;
+    height: 70px;
+    background: #222222;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+}
+
+@mixin circle-tablet(){
+    width: 150px;
+    height: 150px;
+    background: #222222;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+}
+
+@mixin dark-circle(){
+    width: 200px;
+    height: 200px;
+    background:transparent;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+
+}
