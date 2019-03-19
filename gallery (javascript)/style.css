@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+   background-color: #ccc;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 350px;
+}
+.container img{
+    width: 600px;
+    height: 400px;
+    margin: 40px 0 0 350px;
+}
+.images img{
+    width: 130px;
+    height: 100px;
+    margin: 10px 10px 20px 10px;
+    filter: grayscale(1); 
+}
+
+
+.active{
+    filter: grayscale(0) !important; 
+}
+
+.myborder{
+    border: 3px solid white;
+}
