@@ -1,5 +1,5 @@
 
-<li> Tinyone page: https://goo-gl.ru/52j4
+<li> Tinyone page: https://bit.ly/2ucSpDV
 <li> Tinyone page (2): https://goo-gl.ru/52jm   
 <li> Sign form: https://goo-gl.ru/52jy  
 <li> Acad page: https://goo-gl.ru/52mo   
