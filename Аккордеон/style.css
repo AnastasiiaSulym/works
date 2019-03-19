@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial sans-serif;
+
+    
+}
+h3 {
+    height:40px;
+    line-height:40px;
+    padding-left: 30px;
+    background-color: #fff;
+    border-radius: 4px 4px 0 0;
+    font-family: Arial, sans-serif;
+    font-size:16px;
+    border: 1px solid #ccc;
+}
+
+#accordion {
+    width:80%;
+    margin:10px auto;
+    }
+
+#accordion {
+    
+}
+
+#accordion div {
+    padding: 30px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-top:none;
+    border-radius: 0 0 4px 4px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height:1.5;
+    text-align: justify
+}
+
+img {
+    width: 250px;
+    
+  }
+
+.pic {float:left;
+    width:250px;
+    padding:10px !important;
+    margin-right: 20px;
+    border:1px solid #ccc !important;
+    background-color: #eee;
+    border-radius:4px !important;
+    box-shadow:0 1px 3px #bbb;
+}
+
+.pic h5 {text-align:center;
+    font-family: Arial;
+    color:#777;
+}
+
+.hidden {
+    border-radius: 4px;
+    margin-bottom: 5px;
+    background: #f5f6f7;
+    background: -moz-linear-gradient(top, #dcddde 0%, #f5f6f7 100%);
+    background: -webkit-linear-gradient(top, #dcddde 0%, #f5f6f7 100%);
+    background: -o-linear-gradient(top, #dcddde 0%, #f5f6f7 100%);
+}
+
+.hidden:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    background-image:url(images/arrow.png);
+    background-position:0 0;
+    background-repeat: no-repeat;
+    float: right;
+    
+}
+
+.hidden:hover {
+    background: #f5f6f7;
+    background: -moz-linear-gradient(top, #fcfdfe 0%, #c5c6c7 100%);
+    background: -webkit-linear-gradient(top, #fcfdfe 0%, #c5c6c7 100%);
+    background: -o-linear-gradient(top, #fcfdfe 0%, #c5c6c7 100%);
+}
+
+.active:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    background-image:url(images/arrow.png);
+    background-position:0 -20px;
+    background-repeat: no-repeat;
+    float: right;
+}
