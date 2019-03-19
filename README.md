@@ -6,3 +6,4 @@
 <li> Cahee page : https://bit.ly/2W9Ksez
 <li> Freshness page: https://bit.ly/2OdfiQz 
 <li> Escape page: https://bit.ly/2HtWegG
+<li> Gallery(js): https://bit.ly/2UF5mSt
