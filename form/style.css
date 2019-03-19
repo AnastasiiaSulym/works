@@ -1,0 +1,321 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+.main-list{
+	width: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #146fbc;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	box-shadow: 0px 1px 0px 0px #146fbc;
+	margin-top: 10px ;
+	border-radius: 0 10px 0 0px;
+}
+
+.corner, 
+.close{
+	position: absolute;
+}
+
+.corner{
+	margin: -5px 0 0 337px;
+	width: 65px;
+}
+
+.close{
+	margin: 5px 0 0 370px;
+	cursor: pointer;
+}
+
+.main-text{
+	font-family: SansusWebissimo;
+	color:  #1e1e1e;
+	font-size: 40px;
+	font-weight: 400;
+	border-bottom: 4px  #0a6cb7 ;
+	border-bottom-style: dotted;
+	display: inline-block;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #0a6cb7;
+}
+
+.img-1, 
+.img-2, 
+.img-3, 
+.img-4, 
+.img-5, 
+.icon-1,
+.img-info
+{
+ display: inline-block; 
+ background: url('img/sprite.png') no-repeat; 
+ overflow: hidden; 
+ text-indent: -9999px; 
+ text-align: left; 
+}
+
+.icon-1{
+  margin: 30px 10px 0 40px;
+  background-position: -62px -92px; width: 22px; height: 27px;
+}
+
+.img-1{
+  background-position: -20px -0px; width: 22px; height: 28px;
+}
+
+.img-2{
+  background-position: -62px -0px; width: 22px; height: 26px;
+}
+
+.img-3{
+  background-position: -62px -46px; width: 22px; height: 26px;
+}
+
+.img-4{
+  background-position: -20px -48px; width: 22px; height: 16px;
+}
+
+.img-5{
+  background-position: -20px -84px; width: 22px; height: 23px;
+}
+
+.icons{
+	padding: 30px 0 0px 45px;
+	float: left;
+}
+
+.input-form, 
+.input-password{
+	float: right;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 3px solid #e7e7e7;
+	outline: none;
+	margin: 0px 0 0 12px;
+	height: 30px;
+}
+
+.input-password{
+	border: 3px solid #0b70c0;
+}
+
+.input-form:focus{
+	border-color: #0b70c0;
+}
+
+.cross{
+	position: absolute;
+	margin: -40px 0 0 270px;
+}
+
+input::-webkit-input-placeholder,
+.input-password::-webkit-input-placeholder { 
+	font-family: SansusWebissimo;
+	color:  #146fbc;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	padding: 0px 0 0px 10px;
+}
+
+.input-password::-webkit-input-placeholder { 
+	color: #1e1e1e ;
+}
+
+.check{
+	position: absolute;
+	margin: -25px 0 0 240px;
+}
+
+.container {
+	position: relative;
+	margin: 80px 0 10px -230px;
+	float: left;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0px;
+	left: -30px;
+	height: 20px;
+	width: 20px;
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #0b6cbb;
+	background-color:  #ffffff;
+}
+
+.container input:checked ~ .checkmark {
+	background-color: #ffffff;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+}
+
+.container input:checked ~.checkmark:after {
+	display: block;
+	display: none;
+}
+
+.container .checkmark:after {
+	left: 5px;
+	top: 1px;
+	width: 5px;
+	height: 10px;
+	border: solid #0b6cbb;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.label-text{
+	font-family: SansusWebissimo;
+	color:  #1e1e1e;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	margin: 0 0 20px 0;
+}
+
+.bold{
+	display: inline;
+	color:  #146fbc;
+}
+
+.bold-2{
+	display: inline;
+	color:  #000000;
+}
+
+.bottom-text{
+	width: 140px;
+	font-family: SansusWebissimo;
+	color:  #1e1e1e;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+	padding: 0 0 80px 30px;
+}
+
+.cross-2{
+	float: right;
+	padding: 6px 0 0 0;
+}
+
+.send-btn{
+	position: absolute;
+	margin: 0 auto;
+	margin: -50px 0 0 150px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.footer{
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	clear: both;
+	width: 400px;
+}
+
+.arrow{
+	padding: 60px 0 0 180px;
+}
+
+.footer-text{
+	margin: 0 auto;
+	width: 375px;
+}
+
+.arrow-text{
+	font-family: SansusWebissimo;
+	color: #ffffff;
+	width: 375px;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: left;
+	margin: -40px 0 0 230px;
+	background-color: #0a6eba;
+}
+
+.arr-left{
+	content: '';
+	width: 0px;
+	height: 0px;
+	position: relative;
+	bottom: 30px;
+	left: 206px;
+	border: 12px solid transparent;
+	border-right-color:#0a6eba ;
+}
+
+.arr-bot{
+	content: '';
+	width: 0px;
+	height: 0px;
+	position: relative;
+	bottom: 60px;
+	left: 190px;
+	border: 12px solid transparent;
+	border-bottom-color:#0a6eba ;
+}
+
+.info{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 400px;
+}
+
+.img-info{
+	margin: 20px 0 20px 190px;
+	background-position: -62px -46px; width: 22px; height: 26px;
+}
+
+.img-info-2{
+	margin: 20px 0 20px 190px;
+}
+
+.info-text{
+
+	font-family: SansusWebissimo;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+	background-color: #0a6eba;
+}
+
+@font-face {
+	font-family: "SansusWebissimo"; 
+	src: url("fonts/SansusWebissimo-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+
+
