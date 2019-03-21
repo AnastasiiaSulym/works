@@ -1,18 +1,20 @@
 $(document).ready(function(){
 
-    lit1= {
+    a= {
         'left':500,
         'opacity':0
     };
-    lit2= {
+    b= {
         'left':0,
         'opacity':1
     };
+    c={
+        'left': -500,
+        'opacity':  0
+    }
 
    
-
-
-    $('.slider li').css(lit1);
+    $('.slider li').css(a);
     
     slider();
     function slider()
@@ -24,27 +26,21 @@ $(document).ready(function(){
         
         if (next.length==1)
             {
-                $(current).removeClass('active').css(lit1);
-                $(next).addClass('active').css(lit2)
+                $(current).animate(c, 500, function(){
+                $(this).removeClass('active').css(a);
+            })
+                $(next).animate(b,500).addClass('active');
             }
         else
             {
-                $(first).addClass('active').css(lit2);
-                $(current).removeClass('active').css(lit1);
+                $(first).addClass('active').css(b);
+                $(current).removeClass('active').css(a);
             }
         
-        setTimeout(slider, 2000);
+        setTimeout(slider, 3000);
     }
     
   
-
-
-
-
-   
-
-  
-
 
 
 
