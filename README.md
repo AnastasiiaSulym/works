@@ -6,5 +6,5 @@
 <li> Freshness page: https://bit.ly/2OdfiQz 
 <li> Escape page: https://bit.ly/2HtWegG
 <li> Gallery(js): https://bit.ly/2UF5mSt
-
+<li> Slider(jQuery): https://bit.ly/2TkRefH
 <li> Accordion (jQuery): https://bit.ly/2UK2VOs
