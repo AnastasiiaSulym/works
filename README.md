@@ -8,3 +8,4 @@
 <li> Gallery(js): https://bit.ly/2UF5mSt
 <li> Slider(jQuery): https://bit.ly/2TkRefH
 <li> Accordion (jQuery): https://bit.ly/2UK2VOs
+<li> New Providence app: https://bit.ly/2JlvbF2 
