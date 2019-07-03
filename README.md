@@ -1,5 +1,5 @@
 
-<li> Acad page: https://bit.ly/2OfENRp
+
 <li> Tinyone page: https://bit.ly/2ucSpDV
 <li> Tinyone page (2): https://bit.ly/2Y8s4EP
 <li> Sign form: https://bit.ly/2TkbeyU
