@@ -1,4 +1,4 @@
-<li> Cahee page : https://bit.ly/2W9Ksez
+
 <li> Acad page: https://bit.ly/2OfENRp
 <li> Tinyone page: https://bit.ly/2ucSpDV
 <li> Tinyone page (2): https://bit.ly/2Y8s4EP
@@ -10,4 +10,5 @@
 <li> Accordion (jQuery): https://bit.ly/2UK2VOs
 <li> New Providence app: https://bit.ly/2JlvbF2 
 <li> Travel page: https://bit.ly/2I0OK2l  
-<li> SEO Whiteking(desktop variant): https://bit.ly/31p8aXs  
+<li> SEO Whiteking(desktop variant): https://bit.ly/31p8aXs 
+<li>Clothing page: https://bit.ly/309cWac  
