@@ -1,5 +1,5 @@
 
-<li> Tinyone page (2): https://bit.ly/2Y8s4EP
+
 <li> Sign form: https://bit.ly/2TkbeyU
 <li> Freshness page: https://bit.ly/2OdfiQz 
 <li> Escape page: https://bit.ly/2HtWegG
